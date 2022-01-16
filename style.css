@@ -415,18 +415,94 @@ section .title::after {
 .teams .title::after {
   content: 'what i created';
 }
-.teams .carousel .card {
-  background: #222;
+.teams .carousel .cardone {
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  height: 300px;
+  width: 300px;
+  background: url('./images/4.png') no-repeat;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-size: cover;
 }
+.teams .carousel .cardtwo {
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 300px;
+  width: 300px;
+  background: url('./images/3.png') no-repeat;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-size: cover;
+}
+.teams .carousel .cardthree {
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 300px;
+  width: 300px;
+  background: url('./images/22.png') no-repeat;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-size: cover;
+}
+.teams .carousel .cardfour {
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 300px;
+  width: 300px;
+  background: url('./images/2.png') no-repeat;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-size: cover;
+}
+
+.project {
+  height: 30px;
+  width: 90px;
+  position: absolute;
+  bottom: 88px;
+  left: 100px;
+  opacity: 0;
+  background-color: #89cff0;
+}
+.readme {
+  height: 30px;
+  width: 90px;
+  opacity: 0;
+  position: absolute;
+  left: 100px;
+  bottom: 126px;
+  background-color: #89cff0;
+}
+
+.teams .carousel .button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.carousel:hover button {
+  opacity: 1;
+}
+
 .teams .carousel .card:hover {
   background: #89cff0;
 }
-.teams .carousel .card .box {
+/* .teams .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -451,7 +527,8 @@ section .title::after {
 }
 .teams .carousel .card:hover img {
   border-color: #fff;
-}
+} */
+
 .owl-dots {
   text-align: center;
   margin-top: 20px;
