@@ -415,12 +415,24 @@ section .title::after {
 .teams .title::after {
   content: 'what i created';
 }
+.teams .carousel .info {
+  text-align: left;
+  color: #89cff0;
+}
+.teams .carousel .info h1 {
+  text-align: center;
+}
 .teams .carousel .cardone {
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  height: 680px;
+  width: 300px;
+  color: #89cff0;
+}
+.teams .carousel .cardone .image {
   height: 300px;
   width: 300px;
   background: url('./images/4.png') no-repeat;
@@ -434,6 +446,11 @@ section .title::after {
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  height: 680px;
+  width: 300px;
+  color: #89cff0;
+}
+.teams .carousel .cardtwo .image {
   height: 300px;
   width: 300px;
   background: url('./images/3.png') no-repeat;
@@ -447,6 +464,11 @@ section .title::after {
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  height: 680px;
+  width: 300px;
+  color: #89cff0;
+}
+.teams .carousel .cardthree .image {
   height: 300px;
   width: 300px;
   background: url('./images/22.png') no-repeat;
@@ -460,6 +482,11 @@ section .title::after {
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  height: 680px;
+  width: 300px;
+  color: #89cff0;
+}
+.teams .carousel .cardfour .image {
   height: 300px;
   width: 300px;
   background: url('./images/2.png') no-repeat;
@@ -467,6 +494,19 @@ section .title::after {
   background-position: center;
   background-size: cover;
 }
+/* .teams .carousel .cardtwo {
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 300px;
+  width: 300px;
+  background: url('./images/3.png') no-repeat;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+} */
 
 .project {
   height: 30px;
@@ -502,33 +542,6 @@ section .title::after {
 .teams .carousel .card:hover {
   background: #89cff0;
 }
-/* .teams .carousel .card .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-.teams .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-.teams .carousel .card img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #89cff0;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img {
-  border-color: #fff;
-} */
-
 .owl-dots {
   text-align: center;
   margin-top: 20px;
@@ -552,6 +565,9 @@ section .title::after {
 }
 
 /* contact section styling */
+.contact {
+  background-color: blanchedalmond;
+}
 .contact .title::after {
   content: 'get in touch';
 }
