@@ -576,6 +576,7 @@ section .title::after {
 .interest .interest-container .icons .row {
   display: flex;
   height: 60px;
+  animation: slideMe 0.7s ease-in;
 }
 .interest .interest-container .icons .row .info {
   margin-left: 250px;
@@ -759,5 +760,32 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+}
+
+@keyframes slideMe {
+  0% {
+    transform: skewX(53deg) translate(-500px);
+    opacity: 0;
+  }
+
+  60% {
+    transform: translate(0px);
+  }
+  62% {
+    transform: skewX(0deg) translate(30px);
+  }
+  70% {
+    transform: skew(-20deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skew(0deg) translate(0);
+  }
+  90% {
+    transform: skew(-5deg);
+  }
+  100% {
+    transform: skew(0deg);
   }
 }
