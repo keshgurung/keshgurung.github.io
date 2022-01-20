@@ -595,15 +595,18 @@ section .title::after {
 
 /* contact section styling */
 .contact {
-  background-color: blanchedalmond;
+  background-color: black;
+  color: white;
 }
 .contact .title::after {
   content: 'Get in touch';
+  text-decoration: none;
+  background-color: #111;
 }
 
 .con-icon {
   margin: 3rem;
-  color: purple;
+  color: rebeccapurple;
   transition: all 0.3s ease-in-out;
   font-size: 4rem;
   border: 0.2rem solid rgba(219, 198, 198 0.3);
@@ -614,7 +617,7 @@ section .title::after {
 }
 
 .con-icon:hover {
-  color: #111;
+  color: #fff;
 }
 
 /* footer section styling */
