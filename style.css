@@ -703,6 +703,22 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
+  .interest .interest-container {
+    width: 100%;
+  }
+  .interest .interest-container .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .interest .interest-container .icons .row {
+    justify-content: left;
+    margin-left: -200px;
+    margin-bottom: 70px;
+  }
+  .interest .interest-container .icons .row .head {
+    text-align: left;
+    padding: auto;
+  }
   .experience .serv-content .card {
     width: calc(50% - 10px);
     margin-bottom: 20px;
@@ -741,6 +757,9 @@ footer span a:hover {
   }
   .about .about-content .right .text,
   .skills .skills-content .left .text {
+    font-size: 19px;
+  }
+  .interest {
     font-size: 19px;
   }
   .contact .right form .fields {
