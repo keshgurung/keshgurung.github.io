@@ -572,18 +572,21 @@ section .title::after {
 .interest .title::after {
   content: 'what I enjoy';
 }
-
+.interest .interest-container .icons {
+  display: flex;
+  flex-direction: column;
+}
 .interest .interest-container .icons .row {
   display: flex;
   height: 60px;
+  margin-bottom: 20px;
   animation: slideMe 0.7s ease-in;
 }
-.interest .interest-container .icons .row .info {
-  margin-left: 250px;
-}
+/* .interest .interest-container .icons .row .info {
+} */
 .interest .interest-container .icons .row .head {
   font-size: 20px;
-  margin-left: 20px;
+  text-align: left;
 }
 .int-icon {
   color: var(--grey);
