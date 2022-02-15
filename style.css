@@ -494,19 +494,6 @@ section .title::after {
   background-position: center;
   background-size: cover;
 }
-/* .teams .carousel .cardtwo {
-  border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  height: 300px;
-  width: 300px;
-  background: url('./images/3.png') no-repeat;
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-size: cover;
-} */
 
 .project {
   height: 30px;
@@ -566,35 +553,36 @@ section .title::after {
 }
 
 /* interest section */
+
 .interest {
   background-color: #89cff0;
 }
 .interest .title::after {
   content: 'what I enjoy';
 }
-.interest .interest-container .icons {
+.interest .interest-container {
   display: flex;
   flex-direction: column;
 }
-.interest .interest-container .icons .row {
+.interest .interest-container .row {
   display: flex;
+  justify-content: left;
   height: 60px;
-  margin-bottom: 20px;
   animation: slideMe 0.7s ease-in;
+  margin: 3% 0 0 20%;
 }
-/* .interest .interest-container .icons .row .info {
-} */
-.interest .interest-container .icons .row .head {
+.interest .interest-container .row .info {
+  width: 60px;
+}
+
+.interest .interest-container .row .head {
   font-size: 20px;
   text-align: left;
+  margin-left: 20px;
+  padding-top: 10px;
 }
 .int-icon {
-  color: var(--grey);
-  transition: all 0.3s ease-in-out;
   font-size: 3rem;
-  border: 0.2rem solid rgba(219, 198, 198 0.3);
-  border-radius: 100%;
-  margin-right: 1rem;
 }
 
 /* contact section styling */
@@ -706,21 +694,23 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
+
   .interest .interest-container {
-    width: 100%;
-  }
-  .interest .interest-container .icons {
     display: flex;
     flex-direction: column;
   }
-  .interest .interest-container .icons .row {
-    justify-content: left;
-    margin-left: -200px;
-    margin-bottom: 70px;
+  .interest .interest-container .row {
+    display: flex;
+    margin: 0 0 0 1%;
+    height: 100px;
   }
-  .interest .interest-container .icons .row .head {
-    text-align: left;
-    padding: auto;
+  .interest .interest-container .row .info {
+    width: 100px;
+  }
+  .interest .interest-container .row .head {
+    justify-content: left;
+    margin-left: 10px;
+    padding-top: 5px;
   }
   .experience .serv-content .card {
     width: calc(50% - 10px);
