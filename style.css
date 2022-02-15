@@ -525,10 +525,12 @@ section .title::after {
 }
 .carousel:hover button {
   opacity: 1;
+  cursor: pointer;
 }
 
 .teams .carousel .card:hover {
   background: #89cff0;
+  cursor: pointer;
 }
 .owl-dots {
   text-align: center;
