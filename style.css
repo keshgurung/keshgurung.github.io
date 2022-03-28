@@ -196,8 +196,9 @@ section .title::after {
 
 /* home section styling */
 .home {
-  display: flex;
-  background: url('./images/main.webp') no-repeat center;
+  display: flex; 
+  background:url('./images/main.webp') no-repeat center;
+  /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/main.webp') no-repeat center; */
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -211,6 +212,10 @@ section .title::after {
 }
 .home .max-width .row {
   margin-right: 0;
+}
+.home .home-content{
+  position: absolute;
+  top: 18rem;
 }
 .home .home-content .text-1 {
   font-size: 27px;
@@ -742,6 +747,7 @@ footer span a:hover {
     width: 100%;
   }
 }
+
 
 @media (max-width: 500px) {
   .home .home-content .text-2 {
